@@ -1,0 +1,16 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kvoid pick(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:110:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_grasp_pose_type {aka struct geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Korientation[m[K’
+   grasps[0].grasp_pose.orientation = tf2::toMsg(orientation);
+[01;32m[K                        ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:111:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kpose[m[K’
+   grasps[0].grasp_pose.pose.position.x = start_pose0_pick.pose.position.x;
+[01;32m[K                                                           ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:112:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kpose[m[K’
+   grasps[0].grasp_pose.pose.position.y = start_pose0_pick.pose.position.y;
+[01;32m[K                                                           ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:113:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kpose[m[K’
+   grasps[0].grasp_pose.pose.position.z = start_pose0_pick.pose.position.z-0.1;
+[01;32m[K                                                           ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

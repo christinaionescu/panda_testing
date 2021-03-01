@@ -1,0 +1,13 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:696:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+   target_pose3.position.x = start_pose0.x;
+[01;32m[K                                         ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:697:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+   target_pose3.position.y = start_pose0.y;
+[01;32m[K                                         ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:698:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Pose {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+   target_pose3.position.z = start_pose0.z-0.1;
+[01;32m[K                                         ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

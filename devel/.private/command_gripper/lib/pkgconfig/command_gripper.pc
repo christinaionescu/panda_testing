@@ -1,0 +1,8 @@
+prefix=/home/pandanuc3/catkin_ws4/devel/.private/command_gripper
+
+Name: command_gripper
+Description: Description of command_gripper
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,10 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:167:45:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<moveit_msgs::CollisionObject_<std::allocator<void> > > collision_objects[m[K’
+   std::vector<moveit_msgs::CollisionObject> collision_objects;
+[01;32m[K                                             ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:140:45:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<moveit_msgs::CollisionObject_<std::allocator<void> > > collision_objects[m[K’ previously declared here
+   std::vector<moveit_msgs::CollisionObject> collision_objects;
+[01;32m[K                                             ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

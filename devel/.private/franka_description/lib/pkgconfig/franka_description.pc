@@ -1,0 +1,8 @@
+prefix=/home/pandanuc3/catkin_ws4/devel/.private/franka_description
+
+Name: franka_description
+Description: Description of franka_description
+Version: 0.7.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: xacro

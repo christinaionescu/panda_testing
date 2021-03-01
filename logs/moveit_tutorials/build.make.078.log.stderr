@@ -1,0 +1,20 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:341:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::execute(moveit_msgs::RobotTrajectory&)[m[K’
+   move_group.execute(my_plan.trajectory_);  
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:37:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:708:19:[m[K [01;36m[Knote: [m[Kcandidate: moveit::planning_interface::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::execute(const moveit::planning_interface::MoveGroupInterface::Plan&)
+   MoveItErrorCode execute(const Plan& plan);
+[01;32m[K                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:708:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::RobotTrajectory {aka moveit_msgs::RobotTrajectory_<std::allocator<void> >}[m[K’ to ‘[01m[Kconst moveit::planning_interface::MoveGroupInterface::Plan&[m[K’
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:382:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::execute(moveit_msgs::RobotTrajectory&)[m[K’
+   move_group.execute(my_plan.trajectory_);  
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:37:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:708:19:[m[K [01;36m[Knote: [m[Kcandidate: moveit::planning_interface::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::execute(const moveit::planning_interface::MoveGroupInterface::Plan&)
+   MoveItErrorCode execute(const Plan& plan);
+[01;32m[K                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:708:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::RobotTrajectory {aka moveit_msgs::RobotTrajectory_<std::allocator<void> >}[m[K’ to ‘[01m[Kconst moveit::planning_interface::MoveGroupInterface::Plan&[m[K’
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

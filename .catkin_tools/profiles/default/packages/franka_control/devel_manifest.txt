@@ -1,0 +1,8 @@
+franka_ros/franka_control
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/cmake.lock /home/pandanuc3/catkin_ws4/devel/./cmake.lock
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig.cmake /home/pandanuc3/catkin_ws4/devel/share/franka_control/cmake/franka_controlConfig.cmake
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake /home/pandanuc3/catkin_ws4/devel/share/franka_control/cmake/franka_controlConfig-version.cmake
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/lib/libfranka_state_controller.so /home/pandanuc3/catkin_ws4/devel/lib/libfranka_state_controller.so
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/lib/franka_control/franka_control_node /home/pandanuc3/catkin_ws4/devel/lib/franka_control/franka_control_node
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/lib/franka_control/franka_combined_control_node /home/pandanuc3/catkin_ws4/devel/lib/franka_control/franka_combined_control_node
+/home/pandanuc3/catkin_ws4/devel/.private/franka_control/lib/pkgconfig/franka_control.pc /home/pandanuc3/catkin_ws4/devel/lib/pkgconfig/franka_control.pc

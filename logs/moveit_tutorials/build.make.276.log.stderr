@@ -1,0 +1,28 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:478:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_gripper[m[K’ was not declared in this scope
+ actionlib::SimpleActionClient<franka_gripper::GraspAction> ac("franka_gripper/homing", true);
+[01;32m[K                               ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:478:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ actionlib::SimpleActionClient<franka_gripper::GraspAction> ac("franka_gripper/homing", true);
+[01;32m[K                                                          ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:478:92:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [-fpermissive]
+ actionlib::SimpleActionClient<franka_gripper::GraspAction> ac("franka_gripper/homing", true);
+[01;32m[K                                                                                            ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:482:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForServer[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+ ac.waitForServer();
+[01;32m[K    ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:484:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_gripper[m[K’ is not a class, namespace, or enumeration
+ franka_gripper::HomingGoal goal();
+[01;32m[K ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:492:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsendGoal[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+ ac.sendGoal(goal);
+[01;32m[K    ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:492:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+ ac.sendGoal(goal);
+[01;32m[K             ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:495:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForResult[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+ bool finished_before_timeout = ac.waitForResult(ros::Duration(30.0));
+[01;32m[K                                   ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

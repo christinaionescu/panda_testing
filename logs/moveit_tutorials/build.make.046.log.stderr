@@ -1,0 +1,25 @@
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/urdf/model.h:47[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:37[m[K:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:373:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   do \
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO_NAMED(name, ...) ROS_LOG(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   ROS_INFO_NAMED("tutorial", "Add an object into the world");
+[01;32m[K   ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:548:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

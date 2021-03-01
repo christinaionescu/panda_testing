@@ -1,0 +1,8 @@
+prefix=/home/pandanuc3/catkin_ws4/devel/.private/franka_visualization
+
+Name: franka_visualization
+Description: Description of franka_visualization
+Version: 0.7.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs roscpp

@@ -1,0 +1,1 @@
+/home/pandanuc3/catkin_ws4/devel/.private/franka_msgs/share/roseus/ros/franka_msgs/msg/FrankaState.l

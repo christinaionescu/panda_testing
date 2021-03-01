@@ -1,0 +1,15 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:459:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose3
+   #target_pose3.orientation.x= q.x();
+[01;32m[K    ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:460:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose3
+   #target_pose3.orientation.y= q.y();
+[01;32m[K    ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:461:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose3
+   #target_pose3.orientation.z= q.z();
+[01;32m[K    ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:462:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose3
+   #target_pose3.orientation.w= q.w();
+[01;32m[K    ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,22 @@
+[  7%] Built target robot_model_and_robot_state_tutorial
+[ 14%] Built target ros_api_tutorial
+[ 21%] Built target planning_scene_tutorial
+[ 28%] Built target planning_scene_ros_api_tutorial
+[ 35%] Built target motion_planning_api_tutorial
+[ 42%] Built target motion_planning_pipeline_tutorial
+[35m[1mScanning dependencies of target move_group_interface_tutorial[0m
+[ 57%] Built target interactivity_utils
+[ 64%] Built target state_display_tutorial
+[ 71%] Built target pick_place_tutorial
+[ 78%] Built target bag_publisher_maintain_time
+[ 82%] [32mBuilding CXX object doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[ 89%] Built target cylinder_segment
+[ 96%] Built target visualizing_collisions_tutorial
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:59:46:[m[K [01;31m[Kfatal error: [m[Kfranka_gripper/action/Grasp.action: No such file or directory
+compilation terminated.
+doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/build.make:62: recipe for target 'doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o' failed
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+CMakeFiles/Makefile2:4527: recipe for target 'doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all' failed
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

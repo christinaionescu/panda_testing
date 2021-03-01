@@ -1,0 +1,6 @@
+devel_space: /home/pandanuc3/catkin_ws4/devel
+install: false
+install_space: /home/pandanuc3/catkin_ws4/install
+profile: default
+source_space: /home/pandanuc3/catkin_ws4/src
+workspace: /home/pandanuc3/catkin_ws4

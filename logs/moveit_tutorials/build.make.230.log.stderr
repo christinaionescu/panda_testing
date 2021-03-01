@@ -1,0 +1,14 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:602:22:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&[m[K’ from an rvalue of type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’
+   pick(name_obj, true);
+[01;32m[K                      ^[m[K
+In file included from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:52:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:161:3:[m[K [01;36m[Knote: [m[K  after user-defined conversion: moveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&, const boost::shared_ptr<tf::Transformer>&, const ros::WallDuration&)
+   MoveGroupInterface(const std::string& group,
+[01;32m[K   ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:91:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid pick(moveit::planning_interface::MoveGroupInterface&)[m[K’
+ void pick(moveit::planning_interface::MoveGroupInterface& move_group)
+[01;32m[K      ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

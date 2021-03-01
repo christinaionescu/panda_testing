@@ -1,0 +1,40 @@
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:404:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope
+   success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+[01;32m[K   ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:404:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:23:0[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/managed_list.h:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/client/client_helpers.h:47[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:53[m[K,
+                 from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:37[m[K:
+[01m[K/usr/include/boost/exception/detail/clone_current_exception.hpp:34:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::exception_detail::clone_current_exception_result::success[m[K’
+             int const success=0;
+[01;32m[K                       ^[m[K
+In file included from [01m[K/usr/include/boost/system/system_error.hpp:14:0[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/condition_variable.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/condition_variable.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/condition.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/client/simple_action_client.h:38[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:53[m[K,
+                 from [01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:37[m[K:
+[01m[K/usr/include/boost/system/error_code.hpp:59:9:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksuccess[m[K’
+         success = 0,
+[01;32m[K         ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:404:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+   success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+[01;32m[K                              ^[m[K
+[01m[K/home/pandanuc3/catkin_ws4/src/moveit_tutorials/doc/move_group_interface/src/move_group_interface_tutorial.cpp:412:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope
+   visual_tools.publishAxisLabeled(target_pose1, "pose1");
+[01;32m[K                                   ^[m[K
+make[2]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o] Error 1
+make[1]: *** [doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/all] Error 2
+make: *** [all] Error 2

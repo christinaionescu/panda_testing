@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target action_server_panda[0m
+make[2]: *** No rule to make target 'CMakeFiles/action_server_panda.dir/build'.  Stop.
+make[1]: *** [CMakeFiles/action_server_panda.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:707: recipe for target 'CMakeFiles/action_server_panda.dir/all' failed
+Makefile:138: recipe for target 'all' failed
